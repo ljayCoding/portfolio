@@ -1,11 +1,11 @@
 import './navbar.css';
-import GitHubIcon from '../assets/github-mark-white.png';
-import LinkedInIcon from '../assets/linkedin.png';
+import GitHubIcon from '../../assets/github-mark-white.png';
+import LinkedInIcon from '../../assets/linkedin.png';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
     <div className="nav-container">
-      <h1>Portfolio</h1>
       <a href="https://github.com/ljayCoding" target="_blank">
         <img className="github-icon" src={GitHubIcon}></img>
       </a>
@@ -15,27 +15,27 @@ const NavBar = () => {
       >
         <img className="linkedin-icon" src={LinkedInIcon}></img>
       </a>
-      <div class="hamburger-menu">
+      <div className="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
+        <label className="menu__btn" htmlFor="menu__toggle">
           <span></span>
         </label>
 
-        <ul class="menu__box">
+        <ul className="menu__box">
           <li>
-            <a class="menu__item" href="#">
+            <Link className="menu__item" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu__item" href="#">
+            <Link className="menu__item" to="/projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu__item" href="#">
+            <Link className="menu__item" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
