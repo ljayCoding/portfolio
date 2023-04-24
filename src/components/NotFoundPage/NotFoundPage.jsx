@@ -1,6 +1,12 @@
 import './notfoundpage.css';
+import NavBar from '../NavBar/NavBar';
 
 const NotFoundPage = () => {
-  return <h1>404 : Page Not Found</h1>;
+  return (
+    <>
+      <NavBar />
+      <h1>404 : Page Not Found</h1>
+    </>
+  );
 };
 export default NotFoundPage;
