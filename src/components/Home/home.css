@@ -1,0 +1,16 @@
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 45px;
+  font-size: 24px;
+}
+
+span {
+  color: #573280;
+  font-size: 26px;
+}
+
+.text-link {
+  text-decoration: none;
+}

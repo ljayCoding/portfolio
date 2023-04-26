@@ -1,6 +1,6 @@
 import './navbar.css';
 import GitHubIcon from '../../assets/github-mark-white.png';
-import LinkedInIcon from '../../assets/linkedin.png';
+import LinkedInIcon from '../../assets/linkedin-icon-18-256.png';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {

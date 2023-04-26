@@ -18,12 +18,10 @@ const Projects = () => {
     fetchData();
   }, []);
 
-  console.log(projects);
-
   return (
     <>
       <NavBar />
-      <h1 className='heading'>Projects</h1>
+      <h1 className="heading">Projects</h1>
       {projects &&
         projects.map((project) => (
           <div
@@ -33,7 +31,7 @@ const Projects = () => {
               backgroundImage: `url("${project.background}")`,
             }}
           >
-            <h1 className='project-label'>{project.project_name}</h1>
+            <h1 className="project-label">{project.project_name}</h1>
             <a href={project.code_url} target="_blank">
               <button className="code-button">Code</button>
             </a>

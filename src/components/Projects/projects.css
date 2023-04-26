@@ -1,10 +1,11 @@
 .project-div {
   border: #573280 1px solid;
   border-radius: 15px;
-  height: 100px;
+  height: 120px;
   display: flex;
   margin-top: 10px;
   background-position: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .project-div:hover {
@@ -22,8 +23,8 @@ button {
   right: 15px;
   width: 45px;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
-    'Gill Sans MT', 'Gill Sans', 'Calibri', 'Trebuchet MS', sans-serif;
+  box-shadow: 0px 0px 5px black;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .code-button {
@@ -41,8 +42,29 @@ button:hover {
   position: relative;
   top: -20px;
   margin-left: 10px;
+  text-shadow: 0px 0px 10px black;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .heading {
   color: #573280;
+}
+
+@media screen and (max-width: 600px) {
+  .project-label {
+    font-size: 24px;
+    top: -14px;
+  }
+  button {
+    padding: 4px;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .project-div {
+    width: 800px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 15px;
+  }
 }
