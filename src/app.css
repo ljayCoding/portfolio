@@ -1,3 +1,35 @@
 body {
   background-color: #cecfc7;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.heading {
+  color: #573280;
+  text-decoration: underline;
+}
+
+p {
+  color: #573280;
+  text-shadow: 0px 0px 1px black;
+}
+
+.btn {
+  all: unset;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #573280;
+  color: white;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
 }
