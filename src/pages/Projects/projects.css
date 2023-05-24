@@ -1,0 +1,40 @@
+.project-div {
+  border: #573280 1px solid;
+  border-radius: 15px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-position: 0px;
+}
+
+.project-div:hover {
+  border: #573280 2px solid;
+  cursor: pointer;
+  font-size: 102%;
+}
+
+.project-label {
+  position: relative;
+  top: -20px;
+  text-shadow: 3px 3px 5px black;
+}
+
+@media screen and (max-width: 600px) {
+  .project-label {
+    font-size: 24px;
+    top: -14px;
+  }
+  button {
+    padding: 4px;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .project-div {
+    width: 800px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+}

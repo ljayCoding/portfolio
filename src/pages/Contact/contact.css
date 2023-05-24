@@ -1,0 +1,20 @@
+.text-container {
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 15px;
+  border: 1px solid;
+  width: 50%;
+  box-shadow: 0px 0px 2px black;
+}
+
+.details {
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .text-container {
+    width: 80%;
+  }
+}

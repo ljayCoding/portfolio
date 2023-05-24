@@ -1,0 +1,14 @@
+p {
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+}
+
+span {
+  font-size: 26px;
+}
+
+.text-link {
+  text-decoration: none;
+  color: #23022e;
+}
