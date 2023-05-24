@@ -1,0 +1,28 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.link-btn {
+  margin: 5px;
+}
+
+.button-link:link,
+.button-link:visited {
+  text-decoration: none;
+  color: #573280;
+}
+
+.desktop-display {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-display {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}

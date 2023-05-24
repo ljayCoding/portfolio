@@ -1,0 +1,28 @@
+[
+  {
+    "name": "ApexHub Africa",
+    "background": "https://e0.pxfuel.com/wallpapers/584/71/desktop-wallpaper-apex-legends-carbon-logo-grunge-art-carbon-background-creative-apex-legends-black-logo-online-games-apex-legends-logo-apex-legends.jpg",
+    "id": "apex-hub-africa",
+    "description": "This website is planned to be used as a hub for African esports players who play the game Apex Legends. On this website players will be able to create profiles and then host tournaments where other players can join! ",
+    "code_url": "https://github.com/ljayCoding/za-apex-hub",
+    "site_url": "https://apexhub.africa/",
+    "completion": "Still in progress",
+    "display": {
+      "mobile": "../src/assets/apexhubmobile.png",
+      "desktop": "../src/assets/apexhub.png"
+    }
+  },
+  {
+    "name": "F1 Standings",
+    "background": "https://images.pexels.com/photos/10807493/pexels-photo-10807493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "id": "f1-standings",
+    "description": "This website uses an F1 API to display real-time scores. Updated after every race of the current, ongoing season!",
+    "code_url": "https://github.com/ljayCoding/f1-standings",
+    "site_url": "https://f1-standings-web.netlify.app/",
+    "completion": "3rd May 2023",
+    "display": {
+      "mobile": "../src/assets/f1standingsmobile.png",
+      "desktop": "../src/assets/f1standings.png"
+    }
+  }
+]
