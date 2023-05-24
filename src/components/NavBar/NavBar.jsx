@@ -7,13 +7,13 @@ const NavBar = () => {
   return (
     <div className="nav-container">
       <a href="https://github.com/ljayCoding" target="_blank">
-        <img className="github-icon" src={GitHubIcon}></img>
+        <img className="github-icon icon" src={GitHubIcon}></img>
       </a>
       <a
         href="https://www.linkedin.com/in/luke-webber-43714b25b/"
         target="_blank"
       >
-        <img className="linkedin-icon" src={LinkedInIcon}></img>
+        <img className="linkedin-icon icon" src={LinkedInIcon}></img>
       </a>
       <div className="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />
